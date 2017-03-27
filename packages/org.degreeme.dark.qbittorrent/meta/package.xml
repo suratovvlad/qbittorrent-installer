@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>Dark qBittorrent</DisplayName>
+    <Description>Install Dark qBittorrent.</Description>
+    <Version>0.1.0-1</Version>
+    <ReleaseDate>2017-03-27</ReleaseDate>
+    <ForcedInstallation>true</ForcedInstallation>
+    <Licenses>
+        <License name="GNU General Public License v2.0" file="COPYING" />
+    </Licenses>
+    <Default>true</Default>
+    <Script>installscript.qs</Script>
+</Package>
