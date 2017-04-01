@@ -28,7 +28,7 @@ Controller.prototype.IntroductionPageCallback = function() {
 
 Controller.prototype.TargetDirectoryPageCallback = function() {
     console.log("component: " + gui.currentPageWidget());
-    gui.currentPageWidget().TargetDirectoryLineEdit.setText("D:\\qBittorrentDark");
+    //gui.currentPageWidget().TargetDirectoryLineEdit.setText("D:\\qBittorrentDark");
     gui.clickButton(buttons.NextButton);
 }
 
