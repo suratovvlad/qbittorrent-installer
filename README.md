@@ -6,7 +6,7 @@
 1. Use `yaourt -S qbittorrent-dark-git`
 
 ### MacOS or other Linux Distro
-Not supported offically
+Not supported offically yet
 
 ### Build steps for Windows
 
