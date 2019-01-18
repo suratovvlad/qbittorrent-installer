@@ -1,25 +1,26 @@
-# Installer for qbittorrent (Dark version)
+# Installer for qbittorrent (Dark Theme)
 
 ## Steps
 
-### Archlinux
-1. Use yaourt -S qbittorrent-dark-git
+### Arch Linux
+1. Use `yaourt -S qbittorrent-dark-git`
 
-### Build steps for other distros Linux, MacOS
-1. If you are using this OSes, you know what to do
+### MacOS or other Linux Distro
+Not supported offically
 
 ### Build steps for Windows
 
-1. Install msys2 and mingw64 from msys2 packages
-2. Install from msys2 repos x86_64 versions of: qt5, boost, openssl, gcc, cmake, make, ninja, etc
-3. Get libtorrent-rasterbar 1.0.11, compile it using cmake
-4. Clone repo https://github.com/suratovvlad/qBittorrent
-5. Compile it with cmake:
-	- Set LibtorrentRasterbar_INCLUDE_DIR and LibtorrentRasterbar_LIBRARY cmake variables using previous steps
-	- Set -DQT5=ON, add -lws2_32 to linker (CMAKE_CXX_STANDART_LIBRARIES and CMAKE_C_STANDART_LIBRARIES)
-	- Generate ninja build files using -G "Ninja" (or set QtCreator for Ninja builds)
-	- Build with ninja
-6. Get the next libraries from msys2/mingw64/bin:
+1. Install `msys2` and `mingw64` from `msys2` packages
+2. Install from `msys2` repos x86_64 versions of: `qt5`, `boost`, `openssl`, `gcc`, `cmake`, `make`, `ninja`, etc
+3. Get `libtorrent-rasterbar 1.0.11`, compile it using `cmake`
+4. Clone repo `https://github.com/suratovvlad/qBittorrent`
+5. Compile it with `cmake`:
+	- Set `LibtorrentRasterbar_INCLUDE_DIR` and `LibtorrentRasterbar_LIBRARY` `cmake` variables using previous steps
+	- Set `-DQT5=ON`, add `-lws2_32` to linker (`CMAKE_CXX_STANDART_LIBRARIES` and `CMAKE_C_STANDART_LIBRARIES`)
+	- Generate `ninja` build files using `-G Ninja` (or set `QtCreator` for Ninja builds)
+	- Build with `ninja`
+6. Get the next libraries from `msys2/mingw64/bin`:
+```
 	- libboost_system-mt.dll
 	- libbz2-1.dll
 	- libeay32.dll
@@ -45,12 +46,18 @@
 	- Qt5Xml.dll
 	- ssleay32.dll
 	- zlib1.dll
+```
 7. Get the:
+```
 	- libtorrent-rasterbar.dll
+```
 8. Get the next libraries from msys2/mingw64/share/qt5/plugins:
+```
 	- platforms/qminimal.dll
 	- platforms/qwindows.dll
+```
 9. Get the next translations from msys2/mingw64/share/qt5:
+```
 	- translations/qt_ar.qm
 	- translations/qt_ca.qm
 	- translations/qt_cs.qm
@@ -93,8 +100,9 @@
 	- translations/qtbase_ru.qm
 	- translations/qtbase_sk.qm
 	- translations/qtbase_uk.qm
+```
 9. Clone this repo
-10. Put above files into packages\org.degreeme.dark.qbittorrent\data (keep platforms and translations folders in data)
-11. Start from mingw64 console build_installer_mingw64.sh
+10. Put above files into `packages\org.degreeme.dark.qbittorrent\data` (keep platforms and translations folders in data)
+11. Start from `mingw64 console build_installer_mingw64.sh`
 12. Wait for compiling
-13. Install qBittorrentDarkInstaller.exe or use silent_install_mingw64.sh for silent installation
+13. Install `qBittorrentDarkInstaller.exe` or use `silent_install_mingw64.sh` for silent installation
