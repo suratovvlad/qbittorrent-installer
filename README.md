@@ -51,12 +51,12 @@ Not supported offically
 ```
 	- libtorrent-rasterbar.dll
 ```
-8. Get the next libraries from msys2/mingw64/share/qt5/plugins:
+8. Get the next libraries from `msys2/mingw64/share/qt5/plugins`:
 ```
 	- platforms/qminimal.dll
 	- platforms/qwindows.dll
 ```
-9. Get the next translations from msys2/mingw64/share/qt5:
+9. Get the next translations from `msys2/mingw64/share/qt5`:
 ```
 	- translations/qt_ar.qm
 	- translations/qt_ca.qm
