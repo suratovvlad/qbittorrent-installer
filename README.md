@@ -5,7 +5,7 @@
 ### Arch Linux
 1. Use `yaourt -S qbittorrent-dark-git`
 
-### OS X or other Linux Distro
+### macOS or other Linux Distro
 Not supported offically yet
 
 ### Build steps for Windows
