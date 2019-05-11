@@ -2,8 +2,8 @@
 <Package>
     <DisplayName>Dark qBittorrent</DisplayName>
     <Description>Install Dark qBittorrent.</Description>
-    <Version>4.1.6</Version>
-    <ReleaseDate>2019-05-07</ReleaseDate>
+    <Version>4.1.6-1</Version>
+    <ReleaseDate>2019-05-11</ReleaseDate>
     <ForcedInstallation>true</ForcedInstallation>
     <Licenses>
         <License name="GNU General Public License v2.0" file="COPYING" />
