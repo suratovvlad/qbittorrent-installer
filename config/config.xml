@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Installer>
     <Name>qBittorrent (Dark Version)</Name>
-    <Version>4.2.0-RC</Version>
+    <Version>4.2.1</Version>
     <Title>Dark qBittorrent</Title>
     <Publisher>degreeme</Publisher>
     <StartMenuDir>qBittorrent-dark</StartMenuDir>
